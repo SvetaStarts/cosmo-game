@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавление участника</title>
+</head>
+<body>
+
+    <h1>Добавление участника</h1>
+
+<form action="/api-add-member-game-room" method="post">
+    <label for="game_room_id">Номер игровой комнаты</label>
+        <p><input type="text" name="game_room_id" /></p>
+    <label for="name">Ваше имя</label>
+        <p><textarea type="text" name="name"></textarea>
+
+    <p><input type="submit" value="Добавить участника"></p>
+</form>
+
+
+</body>
+</html>

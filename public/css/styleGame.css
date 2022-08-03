@@ -1,0 +1,272 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 960px;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#timer{
+    font-size: 30px;
+    font-style: italic;
+    margin: 50px 200px 20px;
+    text-align: center;
+    color:white;
+    padding: 20px;
+   
+}
+#timer i{
+    color: white;
+    transition: all .5s ease;
+}
+#timer i:hover{
+    color:#23D2E2;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.canvas {
+    border:1px solid white;
+    background: rgba(255,255,255,.5); 
+    position: relative;
+
+}
+#block_finish{
+    display: none;
+    width: 700px;
+    background: rgba(0,0,0,.8);
+    border:1px solid black;
+    position: absolute;
+    margin-left: 19%;
+    margin-top: 8%;
+    text-align: center;
+    padding: 150px 0;
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    
+
+}
+.buttons div{
+    width: 250px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin: 50px 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px black;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.buttons div:hover{
+    transform: scale(1.1);
+}
+.buttons .start {
+    background-color: #01AC45;
+}
+
+.buttons .stop {
+    background-color: #F12228;
+}
+
+.buttons .restart {
+    background-color:#23D2E2;
+}
+
+.button_login{
+    background: #23D2E2;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all .5s ease;;
+}
+.button_login:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 10px black;
+    transform: scale(1.1);
+}
+.name_logo{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -40px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li{
+    float:left;
+    display: block;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: all .6s ease;
+}
+.menu a:hover{
+    color: white;
+    background: #23D2E2;
+    box-shadow: 10px 10px 10px black;
+   
+}
+.section_rule{
+    margin: 100px 0 200px;
+}
+.title_rule_name{
+    font-size: 60px;
+    font-weight: bold;
+    color:#3E3F5E;
+}
+.title_rule_desc{
+    color: #585967;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.accordion {
+    padding: 5px;
+    background: white;
+    box-shadow: 10px 10px 50px grey;
+}
+
+.accordion .rule { 
+    margin-bottom: 10px;
+}
+.accordion .rule .title {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    color:#3E3F5E;
+} 
+
+.accordion .rule .description {
+    font-size: 16px;
+    padding:10px;
+    display: none;
+    background-color:white;
+    color:#585967;
+    transition: all 1s ease;
+}
+
+
+.accordion .close-all {
+    padding: 10px;
+    text-align:right;
+   
+}
+
+.accordion .close-all a i{
+    font-size: 24px;
+    color:#3E3F5E;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.accordion .close-all a i:hover {
+    color:#23D2E2;
+}
+i{
+    padding: 0 15px;
+    color: #3E3F5E;
+}
+
+span[data-tooltip] {
+    cursor: help;
+}
+span[data-tooltip] .text {
+    position: absolute;
+    margin-top: -40px;
+
+    padding:5px 10px;
+    font-size:16px;
+    color: black;
+    border:1px solid grey;
+    background-color:antiquewhite;
+    font-weight: none;
+    border-radius: 5px;
+}
+
+#menu_footer{
+    color:black;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all .5s ease;
+
+}
+#menu_footer:hover{
+    background: none;
+    box-shadow: none;
+    border-radius: none;
+    color:#23D2E2;
+}
+footer{
+    padding: 20px;
+    box-shadow: 0 10px 30px gray;
+}
+.icon a i{
+    padding: 0 5px;
+    transition: all .5s ease;
+}
+.icon a i:hover{
+    color:#23D2E2;
+    cursor:pointer;
+}
+
+.name_about{
+    font-weight: bold;
+    color: #3E3F5E;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 200px;
+}
+.description_about{
+    
+    color: #585967;
+    font-size: 22px;
+    text-align: center;
+    padding: 30px 200px;
+}
+.icon_advantage i{
+    color: #23D2E2;
+    font-size: 30px;
+}
+.title_text_advantage{
+    font-weight: bold;
+    color: #3E3F5E;
+    font-size: 22px;
+}
+.all_text_advantage{
+    color: #585967;
+    font-size: 16px;
+}
+.item_advantage{
+    margin: 40px 10px;
+}

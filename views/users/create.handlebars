@@ -1,0 +1,57 @@
+
+
+
+    <div class="container admin-form">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title_news" style="font-size:40px; font-weight:bold; text-align:center; margin: 100px 0 50px;">
+                    {{title}}
+                </div>
+            </div>
+        </div>
+    <form class="row g-3 needs-validation" method="post" action="/create-user-action" novalidate>
+  <div class="col-md-12">
+    <label for="validationCustom01" class="form-label">Имя</label>
+    <input type="text" class="form-control" id="validationCustom01" name="name"  required>
+    <div class="valid-feedback">
+      Ошибка!
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <label for="validationCustom02" class="form-label">E-mail</label>
+    <input type="text" class="form-control" id="validationCustom02" name="email"  required>
+    <div class="valid-feedback">
+      Ошибка!
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <label for="validationCustom03" class="form-label">Пароль</label>
+    <input type="text" class="form-control" id="validationCustom03" name="password"  required>
+    <div class="valid-feedback">
+      Ошибка!
+    </div>
+  </div>
+ 
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="admin" value="admin" id="invalidCheck4">
+      <label class="form-check-label" for="invalidCheck4">
+        Администратор
+      </label>
+    </div>
+  </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" name="blocked" value="blocked" id="invalidCheck5">
+      <label class="form-check-label" for="invalidCheck5">
+        Заблокирован
+      </label>
+    </div>
+  </div>
+
+  <div class="col-12 ">
+    <button class="btn btn-primary" type="submit">Отправить</button>
+  </div>

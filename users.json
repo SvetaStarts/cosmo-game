@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "624b29ec7c5ba04d6da1a112"
+  },
+  "email": "myemail@yandex.ru",
+  "name": "Василий",
+  "password": "123",
+  "create_date": 1649093217,
+  "admin": "1",
+  "blocked": "0"
+},{
+  "_id": {
+    "$oid": "624b2ae07c5ba04d6da1a113"
+  },
+  "email": "myemail2@yandex.ru",
+  "name": "Анна",
+  "password": "12377",
+  "create_date": 1649093217,
+  "admin": "0",
+  "blocked": "0"
+},{
+  "_id": {
+    "$oid": "624b2b3e7c5ba04d6da1a116"
+  },
+  "email": "petr@yandex.ru",
+  "name": "Пётр",
+  "password": "12377",
+  "create_date": 1649093217,
+  "admin": "0",
+  "blocked": "0"
+},{
+  "_id": {
+    "$oid": "624b2b817c5ba04d6da1a117"
+  },
+  "email": "vika@yandex.ru",
+  "name": "Вика",
+  "password": "12377",
+  "create_date": 1649093217,
+  "admin": "0",
+  "blocked": "0"
+},{
+  "_id": {
+    "$oid": "624b2bc17c5ba04d6da1a118"
+  },
+  "email": "ivan@yandex.ru",
+  "name": "Вика",
+  "password": "5886",
+  "create_date": 1649093217,
+  "admin": "0",
+  "blocked": "1"
+},{
+  "_id": {
+    "$oid": "624b2c1f7c5ba04d6da1a11a"
+  },
+  "create_date": "1649093217",
+  "email": "newuser@yandex.ru",
+  "name": "Катя",
+  "password": "1234354",
+  "admin": "0",
+  "blocked": "0"
+},{
+  "_id": {
+    "$oid": "62507ec106ee2c32ef3d5d8f"
+  },
+  "name": "Иван",
+  "email": "asdasda@sdfsdf.ru",
+  "password": "123456",
+  "admin": "",
+  "blocked": ""
+},{
+  "_id": {
+    "$oid": "62507ef3ec68c777a2069827"
+  },
+  "name": "Иван",
+  "email": "asdasda@sdfsdf.ru",
+  "password": "123456"
+},{
+  "_id": {
+    "$oid": "62507f427aae31b805633a12"
+  },
+  "name": "Иван",
+  "email": "asdasda@sdfsdf.ru",
+  "password": "123456"
+},{
+  "_id": {
+    "$oid": "62507f8968b7c0d749afc3e5"
+  },
+  "name": "Иван",
+  "email": "asdasda@sdfsdf.ru",
+  "password": "123456"
+},{
+  "_id": {
+    "$oid": "625080b67de11af7543eda84"
+  },
+  "name": "sddsfsddf",
+  "email": "sdfsdfs@sdfsdf.ru",
+  "password": "1234",
+  "create_date": 1649442998.818
+}]

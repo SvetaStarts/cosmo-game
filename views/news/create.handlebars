@@ -1,0 +1,32 @@
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title_news" style="font-size:40px; font-weight:bold; text-align:center; margin: 100px 0 50px;">
+                    Создание новости
+                </div>
+            </div>
+        </div>
+
+
+     <form class="row g-3 needs-validation" method="post" action="/create-news-action" novalidate>
+  <div class="col-md-12">
+    <label for="validationCustom01" class="form-label">Название</label>
+    <input type="text" class="form-control" id="validationCustom01" name="title"  required>
+  </div>
+
+  
+  <div class="col-md-12">
+    <label for="validationCustom03" class="form-label">Текст новости</label>
+    <textarea type="text" class="form-control" id="validationCustom03" name="text"  required></textarea>
+  </div>
+  
+  
+      
+  <div class="col-12 ">
+    <button class="btn btn-primary" type="submit">Создать</button>
+  </div>
+  </div>
+</form>
+
+</body>

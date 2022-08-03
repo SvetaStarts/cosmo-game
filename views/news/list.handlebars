@@ -1,0 +1,48 @@
+<main>
+
+  <div class="b-example-divider"></div>
+    
+  <div class="container px-4 py-5" id="hanging-icons">
+      
+    <!-- Кнопка создания новости ---> 
+      <div class="news-button">
+        <button 
+          type="button" 
+          class="btn btn-primary"  
+          onclick="location.href='/create-news'"
+          >
+          Создать новость
+        </button>
+      </div>
+
+
+
+
+    <h2 class="pb-2 border-bottom d-flex justify-content-center" 
+    style="text-transform:uppercase; font-size: 40px; margin-top: 100px;">
+        Новости</h2>
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+      {{#news}}
+      <div class="col d-flex align-items-start">
+        
+        <div>
+          <h2>{{title}}</h2>
+          <div>{{create_date}}</div>
+          <p>{{text}}</p>
+            
+            <button type="button" class="btn btn-primary" onclick="location.href='/update-news{{_id}}'">Изменить</button>&nbsp;
+            <button type="button" class="btn btn-danger" onclick="location.href='/remove-news/{{_id}}'">Удалить</button>
+        </div>
+      </div>
+     {{/news}}
+
+
+
+
+
+    </div>
+  </div>
+  
+</main>

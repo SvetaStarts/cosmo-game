@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+
+<div id="result"></div>
+
+    <script>
+let counter = 0; 
+
+function p1() {
+
+    let promise = new Promise(function(resolve, reject) {
+
+        setTimeout(function() {
+
+            if(counter == 10) { 
+                reject("Ошибка p1:"+counter);
+            } else {
+                resolve("ok p1");
+            }
+
+
+            counter++;
+        }, 3000);
+    });
+
+    return promise;
+}
+
+Promise.all([p1(), p1(), p1()]).then(values => {
+
+  console.log(values);
+
+}).catch(error => {
+   console.log(error);
+});
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
